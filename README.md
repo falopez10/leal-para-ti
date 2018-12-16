@@ -36,5 +36,5 @@ Los siguientes son los componentes implementados:
 ### Back-End
 * Servicios proveídos por la [plataforma de pruebas de leal](https://pruebatecnica.puntosleal.com).
 
-##Autor
+## Autor
 [Fabio Andrés López Corredor](https://falopez10.github.io).
