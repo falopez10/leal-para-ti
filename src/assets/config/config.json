@@ -1,4 +1,5 @@
 {
 	"BASE_API_USER_URL": "https://pruebatecnica.puntosleal.com/api/user/",
-	"LOGIN_URL":"login"
+	"LOGIN_URL":"login",
+	"TRANSACTIONS_URL":"my/transactions"
 }

@@ -1,44 +1,40 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Leal para ti
+"Leal para ti" es un proyecto que permite visualizar las transacciones disponibles para usuarios registrados en la [plataforma de pruebas de Leal] (https://pruebatecnica.puntosleal.com). 
 
-## Available Scripts
+## Uso
+### Versión online
+La aplicación se encuentra desplegada en [heroku](https://leal-para-ti.herokuapp.com/).
+### Instalar localmente
+```
+git clone https://github.com/falopez10/leal-para-ti.git
+cd leal-para-ti 
+npm install
+npm start
+```
+### Funcionalidades
+* Servicio de login.
+* Consulta de las transacciones disponibles para la cuenta ingresada.
+* Filtro según rango de fecha en que se crea la transacción y su criterio.
+* Detalle sobre transacción seleccionada.
+* Diseño "*responsive*", "*mobile-first*"
 
-In the project directory, you can run:
+### Diseño de componentes
+La aplicación se organiza jerárquicamente con componentes según los estándares de React. Cada componente se encuentra implementado dentro de la carpeta /src.
 
-### `npm start`
+Los siguientes son los componentes implementados:
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* **App**: Componente principal, que maneja el estado del usuario.
+* **NavBar**: Se encarga de la barra de navegación y sus funcionalidades. Aquí se incluye servicio de login y de links asociados a leal.
+* **Historial**: Componente con funcionalidades principales: Despliegue de transacciones y filtros. ESe muestra una vez el usuario halla ingresado a su cuenta.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Tecnologías usadas
+### Front-End
 
-### `npm test`
+* [React](https://reactjs.org/): Framework para desarrollo sobre JS
+* [react-bootstrap](https://react-bootstrap.github.io/): Framework sobre bootstrap v3 que permite un diseño *responsive* sobre la plataforma.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Back-End
+* Servicios proveídos por la [plataforma de pruebas de leal](https://pruebatecnica.puntosleal.com).
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+##Autor
+[Fabio Andrés López Corredor](https://falopez10.github.io).
